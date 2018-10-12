@@ -1,0 +1,13 @@
+{
+  "name": "sentry-serverless",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@sentry/node": "^4.1.1",
+    "aws-serverless-express": "^3.3.5",
+    "express": "^4.16.4",
+    "serverless": "^1.32.0",
+    "serverless-offline": "^3.27.0"
+  }
+}

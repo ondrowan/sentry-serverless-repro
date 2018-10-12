@@ -1,0 +1,18 @@
+service: sentry-serverless
+
+plugins:
+  - serverless-offline
+
+provider:
+  name: aws
+  runtime: nodejs8.10
+  stage: dev
+  region: us-east-1
+
+functions:
+  test:
+    handler: handler.handler
+    events:
+      - http:
+          method: get
+          path: /
